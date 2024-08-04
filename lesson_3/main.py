@@ -1,6 +1,7 @@
 import human
 import family
 import datetime
+import itterable_famiy
 from family_writer import Family_writer
 from family_reader import Family_reader
 father = human.Human("Andrey", "man", datetime.datetime.strptime("12.08.1997", "%d.%m.%Y"), [], [])
@@ -13,9 +14,14 @@ family_1.append_human(father)
 family_1.append_human(mother)
 family_1.append_human(children)
 family_1.view_family()
+print("---------------------------------------------")
 Family_writer().write(family_1) ## запись класса в pickle файл
 family_2 = Family_reader().read("family_1") ## читаем файл который мы записали 
 family_2.view_family()
-
+print("---------------------------------------------")
+itterable = itterable_famiy.Itterable_family()
+print(family_1.sorting_name())
+print("---------------------------------------------")
+print(family_1.sorting_age())
 
 
