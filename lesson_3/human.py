@@ -16,7 +16,7 @@ class Human():
             "parents":self.__parents,"children":self.__children}
   def get_info(self):
     return(f"name = {self.__name}, gender = {self.__gender}, age = {self.get_age()}")
-  # def __str__(self):
-  #   return self.__name
+  def __str__(self):
+    return self.__name
   def get_name(self):
     return self.__name

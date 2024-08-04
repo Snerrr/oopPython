@@ -25,4 +25,5 @@ class Family():
       age_list.append(element.get_age())
     age_list.sort()
     return age_list
-    
+  def append_dog(self, dog : object):
+    self.__humans.append(dog)
