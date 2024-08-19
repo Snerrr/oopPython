@@ -1,6 +1,6 @@
 import datetime
 from dateutil.relativedelta import relativedelta
-from human import Human
+from oopPython.lesson_3.models.human import Human
 class Dog():
   def __init__(self, master : Human, name : str, birthDate : datetime):
     self.__master = master

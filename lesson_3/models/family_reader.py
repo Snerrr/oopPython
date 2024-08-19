@@ -1,6 +1,6 @@
 import pickle
 from family import Family
-from reader import Reader
+from oopPython.lesson_3.models.reader import Reader
 class Family_reader(Reader):
   def __init__(self):
     pass

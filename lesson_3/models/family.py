@@ -27,3 +27,7 @@ class Family():
     return age_list
   def append_dog(self, dog : object):
     self.__humans.append(dog)
+  def get_info(self):
+    for element in range(len(self.__humans)):
+      print(element)
+      

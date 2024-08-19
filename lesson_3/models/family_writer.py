@@ -1,6 +1,6 @@
 import pickle
 from family import Family
-from writer import Writer
+from oopPython.lesson_3.models.writer import Writer
 class Family_writer(Writer):
   def __init__(self):
     pass

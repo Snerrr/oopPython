@@ -1,4 +1,4 @@
-from itterable import Itterable
+from oopPython.lesson_3.models.itterable import Itterable
 from family import Family
 class Itterable_family(Itterable):
   def __init__(self):
