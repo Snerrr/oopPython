@@ -1,9 +1,8 @@
 import datetime
-from views.console_ui import Ui
 from models.family import Family
 from models.human import Human
 class Presenter():
-  def __init__(self, Ui : Ui):
+  def __init__(self, Ui : object):
     self.Ui = Ui
     self.Family = Family([], "Korochinskiy")
   def view_family(self):
